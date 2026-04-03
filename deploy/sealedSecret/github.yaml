@@ -3,11 +3,11 @@ apiVersion: bitnami.com/v1alpha1
 kind: SealedSecret
 metadata:
   name: github
-  namespace: flux-system
+  namespace: fluxcdtutorial
 spec:
   encryptedData:
     token: AgBT7RP0IUR86I0/LoJYgNwBoDQSapJkMz57RotnvSJqmS07u4PrM+w47OYFCu58sY73o5Rm4e3xVv9Pr9qH6tC6/s+sTnI5mp/3cyNFDsQT4XP/ncPbdWffrld7PUd7EHC7+gLHx5R+5Fw67sIpbPucvyT5fsOO8EvouKQL1fMYuvfH7tZzeU7747JY9Kas4uIHDSj50HsqffNoia2S0eHNK5OZcDsb/5J05lFCEDQB+16uOxbHjqLNpr0Msy8Til+9YuZobCCCJXbtpvYB3bS2D2OeyMKiYkGhySjX4Pvfp+Dyy1gV0iEzHxJiga+n+Ofr/sgjwn2Wxv5aq626PZjw00UbCloUG8DFMdNA2/YfkwtOvWNyVUFmv0QA6g6hpR33gGRateVS5Hd4XajOZ8ctJACktRMICMF2QuQpJ/BxdbbudNyd8ilYAJmTJy+qExOhh+siBx/ksmEscURpNkmCfCJsiysJ9D26c3T21ywChfr76l4TqYg6FQuiwXMQkPk5rSbn6+2D5L4hbC7ir0ZPRuuzE3HWZnXqwR3/EsVSZCHnyx2qSb6MuifEsA2cnteSCOJ/Evs1lUJ4Hpz6NBMZTLwDh5sONnCEReeXljoC6/A5s5/Wf3W9DNpte5FFuFzdHEUPoJMMM5VTdSd/FnNmQu49w4cP6/W9FYle+jl+yfpaBfl/mRlomi8zdVVlR2pYitOr7KnFgTON/qWIvec+BxsF6DbPjK4AA16ytRpA5ZMhuL2djBS6
   template:
     metadata:
       name: github
-      namespace: flux-system
+      namespace: fluxcdtutorial
