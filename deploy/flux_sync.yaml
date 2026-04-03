@@ -1,3 +1,8 @@
+# create fluxcdtutorial namespace
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: fluxcdtutorial
 ---
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
