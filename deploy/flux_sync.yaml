@@ -8,8 +8,9 @@ spec:
   interval: 30s
   path: ./deploy
   prune: true
+  retryInterval: 2m0s
   sourceRef:
     kind: GitRepository
     name: ngxapp
-  timeout: 2m0s
+  timeout: 3m0s
   wait: true
