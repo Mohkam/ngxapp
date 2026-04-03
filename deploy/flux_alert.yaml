@@ -1,8 +1,8 @@
 apiVersion: notification.toolkit.fluxcd.io/v1beta3
 kind: Alert
 metadata:
-  name: flux-alert
-  namespace: flux-system
+  name: fluxalert
+  namespace: fluxcdtutorial
 spec:
   providerRef:
     name: fluxgithubprovider
